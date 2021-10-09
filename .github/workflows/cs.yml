@@ -1,4 +1,4 @@
-name: ccy-helper
+name: send-ai
 
 on:
   schedule:

@@ -6,7 +6,7 @@
   "scripts": {
     "server": "node index.js"
   },
-  "author": "ccy",
+  "author": "cs",
   "dependencies": {
     "dayjs": "1.10.7",
     "node-fetch": "2.6.1",

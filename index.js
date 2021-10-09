@@ -30,6 +30,8 @@ async function init() {
     );
     const weatherData = await weatherRes.json();
 
+    // console.log('天气信息', weatherData)
+
     // 获取天气生活指数
     const lifeRes = await fetch(
       `https://devapi.qweather.com/v7/indices/1d?key=${weatherKey}&location=${location}&type=${type}`
